@@ -1,84 +1,56 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
-    background-image: url('chem1.jpg'), url('chem3.jpg'); /* Zmienione tło na grafiki chemiczne */
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korki z chemii i matematyki - Julia Nielipińska</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Julia Nielipińska</h1>
+        <p>Korepetycje online z chemii i matematyki</p>
+    </header>
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-}
+    <section class="about">
+        <div class="container">
+            <img src="profile.jpg" alt="Julia Nielipińska">
+            <div class="text">
+                <h2>O mnie</h2>
+                <p>Jestem studentką IV roku farmacji na WUM. Ukończyłam kursy z chemii i matematyki, które pozwoliły mi zdobyć wiedzę oraz doświadczenie praktyczne. W nauczaniu stosuję mnemotechniki i skojarzenia, które ułatwiają zrozumienie skomplikowanych zagadnień.</p>
+                <p>Oferuję zajęcia z chemii (podstawowej i rozszerzonej) oraz matematyki podstawowej, w tym przygotowanie pod maturę.</p>
+            </div>
+        </div>
+    </section>
 
-.about .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-}
+    <section class="offer">
+        <h2>Zakres zajęć</h2>
+        <div class="subjects">
+            <div class="subject">
+                <img src="chemistry_icon.png" alt="Chemia">
+                <p>Chemia podstawowa i rozszerzona</p>
+            </div>
+            <div class="subject">
+                <img src="math_icon.png" alt="Matematyka">
+                <p>Matematyka podstawowa</p>
+            </div>
+            <div class="subject">
+                <img src="matura_icon.png" alt="Matura">
+                <p>Przygotowanie do matury i sprawdzianów</p>
+            </div>
+        </div>
+    </section>
 
-.about img {
-    width: 200px;
-    border-radius: 10px;
-    margin-right: 20px;
-    content: url('received_1829666051168506.jpeg'); /* Poprawiona nazwa pliku zdjęcia */
-}
+    <section class="contact">
+        <h2>Kontakt</h2>
+        <p>📞 Telefon: <a href="tel:517214295">517 214 295</a></p>
+        <p>📧 Email: <a href="mailto:julia.nielipinska@gmail.com">julia.nielipinska@gmail.com</a></p>
+    </section>
 
-.about .text {
-    max-width: 500px;
-    text-align: left;
-}
+    <footer>
+        <p>&copy; 2025 Julia Nielipińska – Wszystkie prawa zastrzeżone</p>
+    </footer>
+</body>
+</html>
 
-.offer {
-    background-color: rgba(255, 255, 255, 0.9);
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.subjects {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.subject {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
-}
-
-.subject img {
-    width: 80px;
-    height: 80px;
-}
-
-.contact {
-    background-color: rgba(255, 255, 255, 0.9);
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    font-size: 14px;
-}
 
