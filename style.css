@@ -5,9 +5,10 @@ body {
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
-    background-image: url('chemistry_background.jpg');
+    background-image: url('chem1.jpg'), url('chem3.jpg'); /* Zmienione tło na grafiki chemiczne */
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
 }
 
 header {
@@ -29,6 +30,7 @@ header {
     width: 200px;
     border-radius: 10px;
     margin-right: 20px;
+    content: url('received_1829666051168506.jpeg'); /* Poprawiona nazwa pliku zdjęcia */
 }
 
 .about .text {
@@ -37,7 +39,7 @@ header {
 }
 
 .offer {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 20px auto;
     padding: 20px;
     width: 80%;
@@ -65,7 +67,7 @@ header {
 }
 
 .contact {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 20px auto;
     padding: 20px;
     width: 80%;
@@ -79,3 +81,4 @@ footer {
     padding: 10px;
     font-size: 14px;
 }
+
